@@ -48,8 +48,8 @@ Important:
 git --version
 git config user.name
 git config user.email
-python --version
-python -m pip install --upgrade pip wheel
+python3 --version
+python3 -m pip install --upgrade pip wheel
 ```
 
 ✔️ Make sure all commands complete successfully. 
@@ -76,7 +76,7 @@ Important:
 - In Windows, you might try `py` instead of `python`.
 
 ```shell
-python util_about.py
+python3 util_about.py
 ```
 
 ✔️ Make sure your script runs successfully. 
@@ -106,19 +106,19 @@ Important:
 - Wait for each script to finish. Did you generate a new datafile? What is the name?
 
 ```shell
-python process_batch_A.py
+python3 process_batch_A.py
 ```
 
 ```shell
-python process_batch_B.py
+python3 process_batch_B.py
 ```
 
 ```shell
-python process_batch_C.py
+python3 process_batch_C.py
 ```
 
 ```shell
-python process_streaming_0.py
+python3 process_streaming_0.py
 ```
 
 ✔️ Make sure your scripts complete successfully. 
